@@ -1,3 +1,3 @@
-let note = "Hello"
-
-console.log(note);
+let word = "Note"
+let anotherWord = "book"
+console.log(`${word} ${anotherWord}`);

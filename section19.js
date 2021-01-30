@@ -115,24 +115,24 @@
 
 // TODO List 
 
-let input = prompt("What would you like to do?")
-const todo = ['make bed', 'trash'];
-while (input !== 'quit' && input !== 'q') {
-    if(input === 'list') {
-        console.log('***********');
-        for (let i = 0; i < todo.length; i++) {
-            console.log(`${i}: ${todo[i]}`);
-        }
-        console.log('***********');
-    }else if (input === 'new') {
-        const newTodo = prompt('What is the new todo?');
-        todo.push(newTodo);
-        console.log(`${newTodo} added to the new list!`)
-    }else if (input === 'del') {
-        const index = prompt('index to del')
-        todo.slice(index, 1);
-        console.log(index);
-    }
-    input = prompt("What would you like to do?")
-}
-console.log('ok, quitting')
+// let input = prompt("What would you like to do?")
+// const todo = ['make bed', 'trash'];
+// while (input !== 'quit' && input !== 'q') {
+//     if(input === 'list') {
+//         console.log('***********');
+//         for (let i = 0; i < todo.length; i++) {
+//             console.log(`${i}: ${todo[i]}`);
+//         }
+//         console.log('***********');
+//     }else if (input === 'new') {
+//         const newTodo = prompt('What is the new todo?');
+//         todo.push(newTodo);
+//         console.log(`${newTodo} added to the new list!`)
+//     }else if (input === 'del') {
+//         const index = prompt('index to del')
+//         todo.slice(index, 1);
+//         console.log(index);
+//     }
+//     input = prompt("What would you like to do?")
+// }
+// console.log('ok, quitting')

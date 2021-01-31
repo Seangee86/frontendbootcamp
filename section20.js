@@ -55,3 +55,40 @@
 //     }
 // }
 // isSnakeEyes(1, 1);
+
+// DEFINE YOUR FUNCTION BELOW:
+
+// function multiply(num1, num2) {
+//     return num1 * num2;
+// }
+// multiply(3, 5);
+
+// DEFINE YOUR FUNCTION BELOW:
+
+// function isShortWeather(temp) {
+//     if( temp >= 75) {
+//         return true;
+//     }else {
+//         return false;
+//     }
+// }
+// isShortWeather(66);
+
+// DEFINE YOUR FUNCTION BELOW:
+
+// function lastElement(array) {
+//    if(array.length === 0) {
+//        return null;
+//    }else {
+//        return array[array.length -1];
+//    }
+// }
+// lastElement([2,4,5,5,6]);
+
+
+// function capitalize(str) {
+//     let firstLetter = str.slice(0,1).toUpperCase();
+//     let restOfStr = str.slice(1);
+//     return firstLetter + restOfStr; 
+// }
+// capitalize("sean");

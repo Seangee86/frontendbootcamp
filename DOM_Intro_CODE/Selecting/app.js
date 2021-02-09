@@ -41,3 +41,15 @@ for (let link of links) {
 // for (let i = 0; i < spans.length; i++) { // looping over the spans list
 //     spans[i].style.color = colors[i];  // setting the color property of each span to the corresponding one from the colors array (using the index numbers)
 // }
+// const container = document.querySelector("#container");
+ 
+// for(let i = 0 ; i < 100; i++){
+//     const button = document.createElement("button");
+//     button.innerText= "Hey!";
+//     container.appendChild(button);
+// }
+
+// const img = document.querySelector('img');
+
+// img.remove();
+

@@ -1,4 +1,3 @@
-let jokes = [ 
 'Unlike Mr. T, Chuck Norris doesn’t pity the fool. He roundhouse kicks him.',
 'Chuck Norris writes only in the first person because that’s the only person that matters to anyone.',
 'Chuck Norris can eat a rubix cube and crap it out solved.',
@@ -10,7 +9,7 @@ let jokes = [
 'Chuck Norris cannot predict the future; the future just better fucking do what Chuck Norris says.',
 'Chuck Norris doesn’t play “hide- and-seek.” He plays “hide-and- pray-I-don’t-find-you.”',
 'Chuck Norris once had an erection while lying face down and struck oil.',
-'Chuck Norris is currently in a legal battle with the makers of Bubble Tape. Norris claims “6 Feet of Fun” is actually the trademark for his penis.',
+'Chuck Norris is currently in a legal battle with the makers of Bubble Tape. Norris claims “6 Feet of Fun” is actually the trademark for his penis.,
 'Chuck Norris doesn’t use pickup lines, he simply says, “Now.”',
 'Chuck Norris doesn’t need a miracle in order to split the ocean. He just walks in and the water gets the fuck out of the way.',
 'Jack was nimble, Jack was quick, but Jack still couldn’t dodge Chuck Norris roundhouse kick.',
@@ -18,7 +17,7 @@ let jokes = [
 'Chuck Norris is ten feet tall, weighs two-tons, breathes fire, and could eat a hammer and take a shotgun blast standing.',
 'In fine print on the last page of the Guinness Book of World Records it notes that all world records are held by Chuck Norris, and those listed in the book are simply the closest anyone else has ever gotten.',
 'Chuck Norris is a man of few words. Chuck Norris is not a man of few roundhouse kicks to the face.',
-'Chuck Norris once had a heart attack; his heart lost.',
+'Chuck Norris once had a heart attack; his heart lost.,
 'When Chuck Norris enters a room, he doesn’t turn the lights on, he turns the dark off.',
 'Chuck Norris can build a snowman out of rain.',
 'Chuck Norris has to maintain a concealed weapon license in all 50 states in order to legally wear pants.',
@@ -61,7 +60,7 @@ let jokes = [
 'TNT was originally developed by Chuck Norris to cure indigestion.',
 'Chuck Norris ate a 10 pound steak in an hour. He spent the first 55 minutes banging the waitress.',
 'Chuck Norris built a time machine and went back in time to stop the JFK assassination. As Oswald shot, Chuck Norris met all three bullets with his beard, deflecting them. JFK’s head exploded out of sheer amazement.',
-'Ironically, Chuck Norris ’ hidden talent is invisibility.',
+'Ironically, Chuck Norris ’ hidden talent is invisibility.,
 'Once a cobra bit Chuck Norris’ leg. After five days of excruciating pain, the cobra died.',
 'If at first you don’t succeed, you’re not Chuck Norris.',
 'Chuck Norris owns the greatest poker face of all-time. It helped him win the 1983 world series of poker despite him holding just a joker, a 2 of clubs, a 7 of spades, and a green number 4 from Uno and a monopoly "get out of jail free" card.',
@@ -99,22 +98,3 @@ let jokes = [
 'Chuck Norris doesn’t read books. He stares them down until he gets the information he wants.',
 'Chuck Norris does not sleep. He waits.',
 'Chuck Norris lost his virginity before his dad did.'
-];
-
-
-function displayJoke() {
-    let index = Math.floor(Math.random()*jokes.length);
-// This will give a random quote
-
-//Display the joke of that index
-let div = document.querySelector('#joke');
-let joke =`<div class="card">
-<img src="nunchuck-norris---254906/favicon.ico">
-<p>${jokes[index]}
-<img src="nunchuck-norris---254906/favicon.ico">
-</div>`;
-div.innerHTML = joke;
-}
-
-let btn= document.querySelector('.btn');
-btn.addEventListener('click', displayJoke);

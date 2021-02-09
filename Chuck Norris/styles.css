@@ -9,18 +9,21 @@ padding:10px;
 font-family: arial;
 text-align: center;}
 
+
 .btn {
 height:50px; width:150px;
 font-size: 18px;
 color:#ffffff;
-background-color: dodgerblue;
+background-color: rgb(30, 150, 255);
 border:none;
-padding:5px;
-border-radius: 5px;}
+padding:10px;
+border-radius: 5px;
+}
+
 
 .card {
 padding:15px 30px 15px 30px;
-margin:40px auto;
+margin:100px auto;
 max-width:500px;
 max-height:300px;
 text-align: center;
